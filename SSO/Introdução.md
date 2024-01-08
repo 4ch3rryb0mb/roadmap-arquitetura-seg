@@ -24,28 +24,28 @@ Partindo do pressuposto da comodidade de vincular diversas aplicações, você h
 
 Para mitigar os riscos associados à tecnologia, detalho abaixo alguns pilares essenciais.
 
-## Robustez no provedor de identidade:
+### Robustez no provedor de identidade:
 Utilizar autenticação multifatorial (MFA).
 Manter o sistema do provedor atualizado com patches e atualizações de segurança.
 Implementar políticas de senha robustas e de expiração de senhas, assim como revogação de credencial de forma automática.
 
-## Monitoramento:
+### Monitoramento:
 Implementar sistemas de monitoramento contínuo para identificação de atividades suspeitas e incomuns, como por exemplo acessos fora do horário comercial.
 implementar alarmes de acessos vinculado à tentativas de acessos provenientes de uma mesma origem, com atuação automática de bloqueio.
 
-## Segregação de funções e controle de acesso
+### Segregação de funções e controle de acesso
 Limitar os privilégios de acesso com base nas funções e responsabilidades dos usuários.
 Implementar políticas de least privilege para garantir que os usuários tenham apenas o acesso necessário para realizar suas tarefas.
 
-## Criptografia e proteção de tokens de autenticação:
+### Criptografia e proteção de tokens de autenticação:
 Use criptografia forte para proteger os tokens de autenticação durante a transmissão e armazenamento.
 Gerenciamento de chaves para proteger os segredos de criptografia.
 Utilize-se de JWE ou JWT para comunicação de sessões ativas, da mesma forma que limite o retorno de informações somente às necessárias para tal aplicação.
 
-##Treinamento dos usuários:
+### Treinamento dos usuários:
 O usuário é sempre o elo mais frágil e de maior impacto, logo é impressindível que eduque os usuários sobre práticas seguras de login, incluindo a importância de senhas fortes, o não compartilhamento de acessos e a identificação de tentativas de phishing.
 
-## Auditorias e revisões regulares de segurança:
+### Auditorias e revisões regulares de segurança:
 Realizar auditorias periódicas para identificar e corrigir possíveis fragilidades do ambiente, assim como revisar as políticas atualmente empregadas.
 Testes de penetração e simulação de ataques, assim como DR (Disaster Recovery) e elaboração de um plano de incidentes. 
 
